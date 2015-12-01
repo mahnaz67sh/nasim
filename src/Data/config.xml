@@ -1,0 +1,109 @@
+﻿<config>
+	<domain>http://185.83.208.175:8091/</domain>
+	<wsdl>/photocontestws.asmx?WSDL</wsdl>
+	
+	<skipAnimations>false</skipAnimations>
+	
+	<maximomStageWidh>768</maximomStageWidh>
+	
+	<photoRequeStsize>50</photoRequeStsize>
+	
+	<loginIsNecesaryToUseApp>false</loginIsNecesaryToUseApp>
+	
+	<userImageFolderName>UserImages</userImageFolderName>
+	
+	<!--debug mode will make intro skips-->
+	<debug>false</debug>
+	
+	<firstPageId>home</firstPageId>
+	
+	<registration_page>register_page</registration_page>
+	
+	<news_content_page_id>news_content_page</news_content_page_id>
+	
+	<galleryPageId>gallery</galleryPageId>
+	<galleryInfoPageId>online_image_page</galleryInfoPageId>
+	<!--Default image editor page id from the data.xml-->
+	<galleryEditorPageId>image_editor_page</galleryEditorPageId>
+	
+	<MenuHHome>0</MenuHHome>
+	<MenuH>55</MenuH>
+	<MenuHTopHome>162</MenuHTopHome>
+	<MenuTopH>121</MenuTopH>
+	
+	<avatarW>400</avatarW>
+	<avatarH>400</avatarH>
+	
+	<contestImageW>1024</contestImageW>
+	<contestImageH>1024</contestImageH>
+	
+	<mediaFrameSizeW>550</mediaFrameSizeW>
+	<mediaFrameSizeH>400</mediaFrameSizeH>
+	
+	<avatar_debug_location>D:/testImage.jpg</avatar_debug_location>
+	<contest_debag_file>D:/Photosphere-1.jpg</contest_debag_file>
+	<media_debag_file>D:/Photosphere-1.jpg</media_debag_file>
+	<media_debag_file_2>D:/testImage.jpg</media_debag_file_2>
+	
+	<logout_page_id>logout</logout_page_id>
+	
+	<showAcceptedImages>true</showAcceptedImages>
+	
+	<lockTheContestList>false</lockTheContestList>
+	
+	<!--show this number of contests on the contestLink menu-->
+	<contestPerLine>5</contestPerLine>
+	
+	<mediatype>txt</mediatype>
+		<mediatype_editor>naghashak_id</mediatype_editor>
+		<mediatype_editor_2>story_generator_record_text</mediatype_editor_2>
+		<mediatype_viewr>imageinfo</mediatype_viewr>
+	<mediatype2>-</mediatype2>
+		<mediatype2_editor>-</mediatype2_editor>
+		<mediatype2_editor_2>story_generator_multi_image_1</mediatype2_editor_2>
+		<mediatype2_viewr>-</mediatype2_viewr>
+	<mediatype3>-</mediatype3>
+		<mediatype3_editor>-</mediatype3_editor>
+		<mediatype3_editor_2>no_where</mediatype3_editor_2>
+		<mediatype3_viewr>-</mediatype3_viewr>
+	<mediatype4>-</mediatype4>
+		<mediatype4_editor>-</mediatype4_editor>
+		<mediatype4_editor_2>no_where</mediatype4_editor_2>
+		<mediatype4_viewr>-</mediatype4_viewr>
+	<mediatype5>-</mediatype5>
+		<mediatype5_editor>-</mediatype5_editor>
+		<mediatype5_editor_2>no_where</mediatype5_editor_2>
+		<mediatype5_viewr>-</mediatype5_viewr>
+	
+	<maximomRecordingTimeInSeconds>600</maximomRecordingTimeInSeconds>
+	
+	<cupesScore>100</cupesScore>
+	<cupsWidth>72</cupsWidth>
+	
+	<imagePopPreviewSizeWidth>600</imagePopPreviewSizeWidth>
+	<imagePopPreviewSizeHeight>400</imagePopPreviewSizeHeight>
+	
+	<mediaTitleMaxChar>50</mediaTitleMaxChar>
+	<photoTitleMaxChar>50</photoTitleMaxChar>
+	
+	<contestIconsDeltaX>45</contestIconsDeltaX>
+	<!--in miliseconds-->
+	<capturing_time>30000</capturing_time>
+	<capture_frame_rate>10</capture_frame_rate>
+	<capture_frame_w>400</capture_frame_w>
+	<capture_frame_h>400</capture_frame_h>
+	<capture_resolution>30</capture_resolution>
+	<min_pass_length>1</min_pass_length>
+	
+	<gender_male>31</gender_male>
+	<gender_female>32</gender_female>
+	
+	<ignoredChanels>1010</ignoredChanels>
+	
+	<ignoredcontests></ignoredcontests>
+	
+	
+	<mainPageImagesChannel>1015</mainPageImagesChannel>
+	
+	<linksColor>0xF04D21</linksColor>
+</config>

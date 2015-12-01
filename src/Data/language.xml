@@ -1,0 +1,414 @@
+﻿<lang>
+	<currentlang>fa</currentlang>
+	
+	<language_info>
+		<fa name="lang_id_fa" id="fa" rtl='1' arabic='1'></fa>
+	</language_info>
+	
+	<fonts_switch>
+		<font>
+			<en>
+				<from name="B Yekan" bold="false"/>
+				<to name="Calibri" bold="false"/>
+			</en>
+		</font>
+		<font>
+			<en>
+				<from name="B Yekan Bold" bold="false"/>
+				<to name="Calibri" bold="true"/>
+			</en>
+		</font>
+	</fonts_switch>
+	
+	<texts>
+	
+		<languagebaseid>
+			<en>12</en>
+			<fa>11</fa>
+			<ar>13</ar>
+		</languagebaseid>
+		
+		<!--Global value-->
+		<no_local_images_saved>
+			<fa>هنوز تصویری ذخیره نشده است.</fa>
+		</no_local_images_saved>
+		<report_title>
+			<fa>گزارش تخلف</fa>
+		</report_title>
+		<report_user_text>
+			<fa>گزارش تخلف کاربر:</fa>
+		</report_user_text>
+		<report_user_title>
+			<fa>گزارش تخلف کاربر</fa>
+		</report_user_title>
+		<report_field>
+			<fa>شرح تخلف:</fa>
+		</report_field>
+		<report_button>
+			<fa>ارسال</fa>
+		</report_button>
+		<report_cansel_button>
+			<fa>لغو</fa>
+		</report_cansel_button>
+		<report_sent>
+			<fa>با تشکر از گزارش شما، در اسرع وقت به گزارش شما رسیدگی خواهد شد.</fa>
+		</report_sent>
+		<report_comment>
+			<fa>گزارش تخلف نظر</fa>
+		</report_comment>
+		<reported_comment_text>
+			<fa>متن نظر انتخاب شده:</fa>
+		</reported_comment_text>
+		
+		<please_wait>
+			<fa>لطفاً کمی صبر کنید</fa>
+		</please_wait>
+		
+		<image_is_not_confirmed_yet>
+			<fa>این تصویر هنوز تایید نشده است.</fa>
+		</image_is_not_confirmed_yet>
+		
+		<no_internet>
+			<fa>اتصال به اینترنت برقرار نیست</fa>
+		</no_internet>
+		
+		<variable>
+			<fa>N</fa>
+		</variable>
+		
+		<yes>
+			<fa>بله</fa>
+		</yes>
+		
+		<no>
+			<fa>نه</fa>
+		</no>
+		
+		<back>
+			<fa>بازگشت</fa>
+		</back>
+			
+			<min_pass_length_is>
+				<fa>حد اقل کاراکتر های رمز عبور باید N حرف باشد.</fa>
+			</min_pass_length_is>
+		
+		<!--Aroos Main Page ↓-->
+			<main_page_l>
+				<fa></fa>
+			</main_page_l>
+		<!--Aroos Main Page ↑-->
+		
+		<!--Register page ↓-->
+			<register_l>
+				<fa>ثبت نام</fa>
+			</register_l>
+			
+			<user_name>
+				<fa>نام کاربری:</fa>
+			</user_name>
+			<user_real_name>
+				<fa>نام:</fa>
+			</user_real_name>
+			<user_last_name>
+				<fa>نام خانوادگی:</fa>
+			</user_last_name>
+			<gender_text>
+				<fa>عنوان:</fa>
+			</gender_text>
+			<gender_male>
+				<fa>آقا</fa>
+			</gender_male>
+			<gender_female>
+				<fa>خانم</fa>
+			</gender_female>
+			<pass_word>
+				<fa>رمز عبور:</fa>
+			</pass_word>
+			<pass_word_re>
+				<fa>تکرار رمز عبور:</fa>
+			</pass_word_re>
+			<phone_number>
+				<fa>شماره تماس:</fa>
+			</phone_number>
+			<user_mail>
+				<fa>ایمیل:</fa>
+			</user_mail>
+			
+			<register_button>
+				<fa>ثبت نام</fa>
+			</register_button>
+			
+			<login_button>
+				<fa>قبلا ثبت نام کرده ام</fa>
+			</login_button>
+			
+			<register_fields_wrong>
+				<fa>اطلاعات کاربر وارد شده قبلا ثبت شده است.</fa>
+			</register_fields_wrong>
+			
+			<welcome_user>
+				<fa>به تجارت گرام خوش آمدید!</fa>
+			</welcome_user>
+		<!--Register page ↑-->
+		
+		<!--Avatar editor page ↓-->
+			<avatar_editor_l>
+				<fa>ویرایش تصویر کاربری</fa>
+			</avatar_editor_l>
+		<!--Avatar editor page ↑-->
+		
+		<!--Profile page ↓-->
+			<user_profile_l>
+				<fa>صفحه شخصی</fa>
+			</user_profile_l>
+			
+			<are_you_sure_to_logout>
+				<fa>مطمئنید می خواهید از حساب کاربری خود خارج شوید؟</fa>
+			</are_you_sure_to_logout>
+			
+			<no_image_saved_on_storage>
+				<fa>هنوز تصویری را ذخیره نکرده اید</fa>
+			</no_image_saved_on_storage>
+		<!--Profile page ↑-->
+		
+		
+		<!--Login page ↓-->
+			<login_l>
+				<fa>ورود</fa>
+			</login_l>
+			
+			<login_button_l>
+				<fa>ورود</fa>
+			</login_button_l>
+			
+			<login_data_wrong>
+				<fa>اطلاعات وارد شده صحیح نیست</fa>
+			</login_data_wrong>
+			
+		<!--Login page ↑-->
+		
+		
+		<!--Edit profile page ↓-->
+			<edit_profile_l>
+				<fa>ویرایش</fa>
+			</edit_profile_l>
+			<edit_profile_save>
+				<fa>ذخیره</fa>
+			</edit_profile_save>
+			<edit_pass_button>
+				<fa>تغییر رمز عبور</fa>
+			</edit_pass_button>
+			
+			<profile_edited>
+				<fa>پروفایل شما بروز شد</fa>
+			</profile_edited>
+			<profile_cannot_be_edit>
+				<fa>اطلاعات وارد شده قابل ذخیره سازی نیستند</fa>
+			</profile_cannot_be_edit>
+		<!--Edit profile page ↑-->
+		
+		<!--Edit Password page ↓-->
+			<edit_pass_l>
+				<fa>تغییر رمز عبور</fa>
+			</edit_pass_l>
+			<field_old_pass>
+				<fa>رمز عبور فعلی:</fa>
+			</field_old_pass>
+			<field_new_pass>
+				<fa>رمز عبور جدید:</fa>
+			</field_new_pass>
+			<field_re_new_pass>
+				<fa>تکرار رمز عبور:</fa>
+			</field_re_new_pass>
+			<edit_pass_save_button>
+				<fa>ذخیره رمز عبور</fa>
+			</edit_pass_save_button>
+			<new_passwords_are_not_same>
+				<fa>رمز عبور تکرار شده با رمز عبور جدید مطابقت ندارد.</fa>
+			</new_passwords_are_not_same>
+			<old_pass_is_wrong>
+				<fa>رمز عبور وارد شده صحیح نیست</fa>
+			</old_pass_is_wrong>
+			<password_changed>
+				<fa>رمز عبور شما تغییر کرد.</fa>
+			</password_changed>
+		<!--Edit Password page ↑-->
+		
+		<!--Capture page ↓-->
+			<capture_page_l>
+				<fa>ارسال تصویر به گروه</fa>
+			</capture_page_l>
+		<!--Capture page ↑-->
+		
+		<!--Image editor ↓-->
+			<image_editor_page_l>
+				<fa>ارسال تصویر به گروه</fa>
+			</image_editor_page_l>
+			<are_you_sure_for_delete>
+				<fa>مطمئنی می خواهی این تصویر پاک شود؟</fa>
+			</are_you_sure_for_delete>
+			
+			<send_image_button>
+				<fa>ارسال به گروه</fa>
+			</send_image_button>
+			<save_image_butoon>
+				<fa>ذخیره تصویر</fa>
+			</save_image_butoon>
+			
+			<image_titile_field>
+				<fa>شرح:</fa>
+			</image_titile_field>
+			<image_hash_tag_field>
+				<fa>هش تگ(حادثه#گزارش):</fa>
+			</image_hash_tag_field>
+			
+			<selected_contest_field>
+				<fa>ارسال به گروه:</fa>
+			</selected_contest_field>
+			
+			<select_a_contest>
+				<fa>موضوعی را انتخاب کنید</fa>
+			</select_a_contest>
+			
+			<no_active_contest_available>
+				<fa>هم اکنون موضوع فعالی وجود ندارد</fa>
+			</no_active_contest_available>
+			
+			<register_befor_send_image>
+				<fa>کاربر گرامی، قبل از ارسال تصویر باید ثبت نام کنید</fa>
+			</register_befor_send_image>
+			
+			<your_image_uploaded>
+				<fa>با تشکر از شما، این تصویر بعد از تایید مدیریت برای همه قابل مشاهده خواهد شد</fa>
+			</your_image_uploaded>
+		<!--Image editor ↑-->
+		
+		
+		
+		
+		<!--Contest list ↓-->
+			<contest_list_title_l>
+				<fa>گروه ها</fa>
+			</contest_list_title_l>
+			<contest_title_list>
+				<fa></fa>
+			</contest_title_list>
+			<contest_total_images>
+				<fa>تعداد تصاویر موجود:</fa>
+			</contest_total_images>
+			<contest_situation>
+				<fa>وضعیت:</fa>
+			</contest_situation>
+			<contest_situation_active>
+				<fa>در حال برگزاری</fa>
+			</contest_situation_active>
+			<contest_situation_deactive>
+				<fa>مهلت ارسال تمام شده</fa>
+			</contest_situation_deactive>
+		<!--Contest list ↑-->
+		
+		<!---Image info page ↓-->
+			<no_comments_saved_yet>
+				<fa>لیست نظرات خالی می باشد.</fa>
+			</no_comments_saved_yet>
+			<tanks_for_your_commetn>
+				<fa>با تشکر از ارسال نظر شما، نظر شما بعد از تایید برای عموم نمایش داده خواهد شد.</fa>
+			</tanks_for_your_commetn>
+		<!---Image info page ↑-->
+		
+		<!--Opponent profile ↓-->
+			<opponent_profile_title>
+				<fa>اطلاعات کاربری</fa>
+			</opponent_profile_title>
+		<!--Opponent profile ↑-->
+		
+		<!--Local storage ↓-->
+			<local_storage_l>
+				<fa>فایل های ارسال نشده</fa>
+			</local_storage_l>
+		<!--Local storage ↑-->
+		
+		<!--Use local gallery ↓-->
+			<select_image>
+				<fa>انتخاب</fa>
+			</select_image>
+			<delete_image>
+				<fa>حذف</fa>
+			</delete_image>
+			<copy_image>
+				<fa>کپی</fa>
+			</copy_image>
+			<no_local_images_saved>
+				<fa>هنوز تصویری ذخیره نشده است.</fa>
+			</no_local_images_saved>
+		<!--Use local gallery ↑-->
+		
+		<!--Search page ↓-->
+			<search_l>
+				<fa>جستجو</fa>
+			</search_l>
+			<search2_l>
+				<fa>جستجو:</fa>
+			</search2_l>
+			<no_result_founded>
+				<fa>هیچ موردی یافت نشد</fa>
+			</no_result_founded>
+		<!--Search page ↑-->
+		
+		<!--Advertise page ↓-->
+			<advertise_title_l>
+				<fa>معرفی خدمات</fa>
+			</advertise_title_l>
+		<!--Advertise page ↑-->
+		
+		<!--Winners page ↓-->
+			<winners_title_l>
+				<fa>تصاویر منتخب</fa>
+			</winners_title_l>
+		<!--Winners page ↓-->
+		
+		<!--Help↓-->
+			<help_title_l>
+				<fa>راهنما</fa>
+			</help_title_l>
+			<rules_title_l>
+				<fa>مقررات</fa>
+			</rules_title_l>
+			<about_title_l>
+				<fa>درباره ما</fa>
+			</about_title_l>
+		<!--Help↑-->
+		
+		
+		<!--News pages↓-->
+			<no_news_available>
+				<fa>هنوز خبری برای این بخش ثبت نشده است.</fa>
+			</no_news_available>
+		<!--News pages↑-->
+		
+		<!--News Comment page↓-->
+			<news_comment_page_title>
+				<fa>درج نظر</fa>
+			</news_comment_page_title>
+			<news_comment_field_name>
+				<fa>نظر:</fa>
+			</news_comment_field_name>
+			<news_comment_submit>
+				<fa>ارسال</fa>
+			</news_comment_submit>
+			<news_comment_sent>
+				<fa>با تشکر از شما، نظر شما در مورد خبر ارسال شد. نظرات بعد از تایید مدیر نرم افزار برای عموم قابل نمایش خواهد بود.</fa>
+			</news_comment_sent>
+		<!--News Comment page↑-->
+		
+	</texts>
+	
+	<movieclips>
+		<frame_on_lang>
+			<en>2</en>
+			<fa>1</fa>
+		</frame_on_lang>
+		
+		
+	</movieclips>
+</lang>

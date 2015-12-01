@@ -1,0 +1,413 @@
+﻿<app>
+	<!--MosabegheAx2 - AroosGram
+	
+	
+	modifed data       image tag need
+	94/06/16
+	
+	
+	
+	-->
+	
+	<!--debug/-->
+	
+	
+	<page id="home">
+		<music></music>
+		<type>home</type>
+		<title>home_l</title>
+		<image></image>
+		<content  w="768" h="793"></content>
+		<links>
+			<!--link level="1" name="اخبار" id="" icon="Data/images/menu/01.png"/>
+			<link level="1" name="برترین اخبار" id="best_news_page" icon=""/>
+			<link level="1" name="مسابقه عکس" id="contest_list_page" icon="Data/images/menu/02.png"/>
+			<link level="1" name="نظر سنجی" id="comments_page" icon="Data/images/menu/03.png"/-->
+			
+			<link level="1" name="راهنما" id="help_page" icon=""/>
+			<link level="1" name="قوانین" id="rules_page" icon=""/>
+			<link level="1" name="درباره" id="about_page" icon=""/>
+		</links>
+		<links>
+			<!--link level="1" name="گروه خبری" id="news_category_page" icon=""/-->
+		</links>
+	</page>
+	
+	
+	
+	<page id="best_news_page">
+		<type>ofogh.ui.pages.newsList.NewsListMostLikes</type>
+		<title>برترین خبر ها</title>
+		<image></image>
+		<content></content>
+	</page>
+	
+	<page id="comments_page">
+		<type>ofogh.ui.pages.contact.ContactByMailPage</type>
+		<title>نظر سنجی</title>
+		<image></image>
+		<content>tamas@ofoghtv.ir</content>
+	</page>
+	
+		<page id="aroos_home">
+			<type>Aroos.ui.pages.mainPage.AroosMainPage</type>
+			<title>main_page_l</title>
+			<image></image>
+			<content></content>
+			<links>
+				<link level="1" name="" id="register_page" icon=""/>
+				<link level="1" name="" id="login_page" icon=""/>
+				<link level="1" name="" id="profile_page" icon=""/>
+				<link level="1" name="" id="captured_page" icon=""/>
+				<link level="1" name="" id="contest_list_page" icon=""/>
+				<link level="1" name="" id="search_page" icon=""/>
+				<link level="1" name="" id="advetise_page" icon=""/>
+				<link level="1" name="" id="winners_page" icon=""/>
+				
+				<link level="1" name="" id="news_content_page" icon=""/>
+				
+				<link level="1" name="" id="help_page" icon=""/>
+				<link level="1" name="" id="rules_page" icon=""/>
+				<link level="1" name="" id="about_page" icon=""/>
+			</links>
+			<links>
+				<!--Single Image view-->
+				<link level="" name="" id="online_image_page" icon=""/>
+			</links>
+		</page>
+		
+		
+	
+			<page id="news_category_page">
+				<type>ofogh.ui.pages.newsCategroyPage.NewsCatPage</type>
+				<title></title><!--Dynamic title-->
+				<image></image><!--Dynamic images-->
+				<content></content><!--Dynamic contents-->
+			</page>
+	
+			<page id="news_content_page">
+				<type>ofogh.ui.pages.newsContent.NewsContentPage</type>
+				<title></title><!--Dynamic title-->
+				<image></image><!--Dynamic images-->
+				<content></content><!--Dynamic contents-->
+				<links></links>
+				<links>
+					<link level="1" name="" id="news_content_comment_page" icon=""/>
+				</links>
+			</page>
+	
+				<page id="news_content_comment_page">
+					<type>ofogh.ui.pages.newsComments.NewsCommentsPage</type>
+					<title></title><!--Dynamic title-->
+					<content></content><!--Dynamic contents-->
+				</page>
+	
+			<page id="help_page">
+				<type>OnlineContent1</type>
+				<title>help_title_l</title>
+				<image></image>
+				<content>144</content>
+				<links></links>
+				<links>
+				</links>
+			</page>
+	
+			<page id="rules_page">
+				<type>OnlineContent1</type>
+				<title>rules_title_l</title>
+				<image></image>
+				<content>143</content>
+				<links></links>
+				<links>
+				</links>
+			</page>
+	
+			<page id="about_page">
+				<type>OnlineContentWithVersion</type>
+				<title>about_title_l</title>
+				<image></image>
+				<content>141</content>
+				<links></links>
+				<links>
+				</links>
+			</page>
+	
+			<page id="winners_page">
+				<type>Aroos.ui.pages.winners.WinnerList</type>
+				<title>winners_title_l</title>
+				<image></image>
+				<content></content>
+				<links></links>
+				<links>
+				</links>
+			</page>
+	
+			<page id="advetise_page">
+				<type>Aroos.ui.pages.advertisment.AdvetismentMainPage</type>
+				<title>advertise_title_l</title>
+				<image></image>
+				<content></content>
+				<links></links>
+				<links>
+					<!--0: Single advertisment category on one page-->
+					<link level="" name="" id="advetise_full_page" icon=""/>
+					<!--1: Single advertisment prevew-->
+					<link level="" name="" id="single_advertise_page" icon=""/>
+				</links>
+			</page>
+	
+				<page id="advetise_full_page">
+					<type>Aroos.ui.pages.advertisment.SelectedAdvertisePage</type>
+					<title></title><!--This is a dynamic title-->
+					<image></image>
+					<content></content>
+					<links></links>
+					<links>
+						<!--Single advertisment prevew-->
+						<link level="" name="" id="single_advertise_page" icon=""/>
+					</links>
+				</page>
+	
+					<page id="single_advertise_page">
+						<type>Aroos.ui.pages.advertisment.AdvertisePrevew</type>
+						<title></title><!--This is a dynamic title-->
+						<image></image>
+						<content></content>
+						<links></links>
+						<links>
+						</links>
+					</page>
+	
+			<page id="search_page">
+				<type>Aroos.ui.pages.search.SearchPage</type>
+				<title>search_l</title>
+				<image></image>
+				<content></content>
+				<links></links>
+				<links>
+					<!--0: searched photo s page-->
+					<link level="" name="" id="searched_images_page" icon=""/>
+					<!--1: searched users page-->
+					<link level="" name="" id="searched_users_page" icon=""/>
+					<!--1: searched news page-->
+					<link level="" name="" id="searched_news_page" icon=""/>
+				</links>
+			</page>
+	
+				<page id="searched_news_page">
+					<type>ofogh.ui.pages.newsList.NewsListFromSearch</type>
+					<title></title>
+					<image></image>
+					<content></content>
+					<links>
+					</links>
+				</page>
+	
+				<page id="searched_images_page">
+					<type>Aroos.ui.pages.search.SearchPhotoResultPage</type>
+					<title>search2_l</title>
+					<image></image>
+					<content></content>
+					<links>
+					</links>
+				</page>
+	
+				<page id="searched_users_page">
+					<type>Aroos.ui.pages.search.SearchPhotographersResultPage</type>
+					<title>search2_l</title>
+					<image></image>
+					<content></content>
+					<links></links>
+					<links>
+						<!--0: opponnent profile page-->
+						<link level="" name="" id="opponent_profile_page" icon=""/>
+					</links>
+				</page>
+		
+			<page id="contest_list_page">
+				<type>Aroos.ui.pages.contestsList.ContestListPage</type>
+				<title>contest_list_title_l</title>
+				<image></image>
+				<content></content>
+				<links>
+				</links>
+				<links>
+					<!--0: Contest photos-->
+					<link level="" name="" id="corrent_contest_gallery_page" icon=""/>
+				</links>
+			</page>
+	
+				<page id="corrent_contest_gallery_page">
+					<type>Aroos.ui.pages.contestGallery.ContestGalleryPage</type>
+					<title></title><!--This is a dynamic title-->
+					<image></image>
+					<content></content>
+					<links>
+					</links>
+					<links>
+						<!--This will generate by the GalleryPage and using the config.xml to detect image page from its type-->
+						<link level="" name="" id="online_image_page" icon=""/>
+					</links>
+				</page>
+	
+					<page id="online_image_page">
+						<type>Aroos.ui.pages.onlineImagePreview.OnlineImagePreviewPage</type>
+						<title></title><!--This is a dynamic title-->
+						<image></image>
+						<content></content>
+						<links>
+						</links>
+						<links>
+							<!--0: Image comments page-->
+							<link level="" name="" id="comments_page" icon=""/>
+							<!--1: opponnent profile page-->
+							<link level="" name="" id="opponent_profile_page" icon=""/>
+						</links>
+					</page>
+	
+						<page id="comments_page">
+							<type>Aroos.ui.pages.comments.CommentPage</type>
+							<title></title><!--This is a dynamic title-->
+							<image></image>
+							<content></content>
+							<links>
+								<!--0: opponnent profile page-->
+								<link level="" name="" id="opponent_profile_page" icon=""/>
+							</links>
+							<links>
+							</links>
+						</page>
+	
+						<page id="opponent_profile_page">
+							<type>Aroos.ui.pages.opponentProfile.OpponentProfilePage</type>
+							<title>opponent_profile_title</title>
+							<image></image>
+							<content></content>
+							<links>
+							</links>
+							<links>
+							</links>
+						</page>
+						
+						
+		<page id="captured_page">
+			<type>Aroos.ui.pages.CapturePage</type>
+			<title>capture_page_l</title>
+			<image></image>
+			<content></content>
+			<links>
+				<link level="-1" name="" id="image_editor_page" icon=""/>
+			</links>
+		</page>
+	
+			<page id="image_editor_page">
+				<scroll w="768" h="1000" effect="false"/>
+				<type>Aroos.ui.pages.imagePreview.ImagePrevew</type>
+				<title>image_editor_page_l</title>
+				<image></image>
+				<content></content>
+				<links></links>
+				<links>
+					<!--0: local gallery on the -->
+					<link level="" name="" id="local_storage_page" icon=""/>
+					<!--1: Register befor sendign photo-->
+					<link level="" name="" id="register_page" icon=""/>
+					<!--2: open the photo gallery-->
+					<link level="-2" name="" id="corrent_contest_gallery_page" icon=""/>
+				</links>
+			</page>
+	
+		
+		
+			<page id="profile_page">
+				<type>Aroos.ui.pages.profile.UserProfile</type>
+				<title>user_profile_l</title>
+				<image></image>
+				<content></content>
+				<links>
+					<!--0: avatar editor page-->
+					<link level="-1" name="" id="avatar_editor_page" icon=""/>
+					<!--1: Edit button-->
+					<link level="-1" name="" id="edit_profile_page" icon=""/>
+					<!--2: Exit button-->
+					<link level="1" name="" id="register_page" icon=""/>
+					<!--3: Exit button-->
+					<link level="-1" name="" id="local_storage_page" icon=""/>
+				</links>
+			</page>
+		
+				<page id="local_storage_page">
+					<type>picContest.ui.pages.localGallery.LocalGalleryPage</type>
+					<title>local_storage_l</title>
+					<image></image>
+					<content></content>
+					<links></links>
+					<links>
+					</links>
+				</page>
+		
+				<page id="edit_profile_page">
+					<type>Aroos.ui.pages.editProfile.EditProfile</type>
+					<title>edit_profile_l</title>
+					<image></image>
+					<content></content>
+					<links>
+						<!--Edit pass page-->
+						<link level="-1" name="" id="edit_password_page" icon=""/>
+						<!--Edit pass page-->
+						<link level="-1" name="" id="avatar_editor_page" icon=""/>
+						<!--Profile saved : No need to change the page, just back to the last page-->
+						<!--link level="1" name="" id="profile_page" icon=""/-->
+					</links>
+					<links>
+					</links>
+				</page>
+		
+					<page id="edit_password_page">
+						<type>Aroos.ui.pages.editProfile.EditPassPage</type>
+						<title>edit_pass_l</title>
+						<image></image>
+						<content></content>
+						<links>
+						</links>
+						<links>
+							<!-- No need to change the page, just back to the last page-->
+						</links>
+					</page>
+		
+			<page id="register_page">
+				<type>Aroos.ui.pages.register.RegisterPage</type>
+				<title>register_l</title>
+				<image></image>
+				<content></content>
+				<links>
+					<link level="-2" name="" id="login_page" icon=""/>
+				</links>
+				<links>
+					<link level="-2" name="" id="avatar_editor_page" icon=""/>
+				</links>
+			</page>
+		
+				<page id="login_page">
+					<type>Aroos.ui.pages.login.LoginPage</type>
+					<title>login_l</title>
+					<image></image>
+					<content></content>
+					<links>
+						<!--0: The next page that user can see after loggin.  Important!! the level must be 0-->
+						<!--I prefer to make user see the last page-->
+							<!--link level="0" name="" id="aroos_home" icon=""/-->
+					</links>
+					<links>
+					</links>
+				</page>
+		
+				<page id="avatar_editor_page">
+					<type>Aroos.ui.pages.avatarEditor.AvatarEditor</type>
+					<title>avatar_editor_l</title>
+					<image></image>
+					<content></content>
+					<links>
+					</links>
+				</page>
+</app>
