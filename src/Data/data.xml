@@ -24,12 +24,13 @@
 			<link level="1" name="مسابقه عکس" id="contest_list_page" icon="Data/images/menu/02.png"/>
 			<link level="1" name="نظر سنجی" id="comments_page" icon="Data/images/menu/03.png"/-->
 			
+			<link level="1" name="مسابقه عکس" id="contest_list_page" icon=""/>
 			<link level="1" name="راهنما" id="help_page" icon=""/>
 			<link level="1" name="قوانین" id="rules_page" icon=""/>
 			<link level="1" name="درباره" id="about_page" icon=""/>
 		</links>
 		<links>
-			<!--link level="1" name="گروه خبری" id="news_category_page" icon=""/-->
+			<link level="1" name="گروه خبری" id="news_category_page" icon=""/>
 		</links>
 	</page>
 	

@@ -3,7 +3,7 @@ set adt="D:\Sepehr\SoftWares\air19\bin\adt.bat"
 rem this is for debugging V
 set adl="D:\Sepehr\SoftWares\air19\bin\adl.exe"
 
-set name=Ofogh
+set name=Tejarat
 
 
 set contents= Data AppIconsForPublish

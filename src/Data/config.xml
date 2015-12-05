@@ -1,5 +1,5 @@
 ﻿<config>
-	<domain>http://185.83.208.175:8091/</domain>
+	<domain>http://185.83.208.175:8036/</domain>
 	<wsdl>/photocontestws.asmx?WSDL</wsdl>
 	
 	<skipAnimations>false</skipAnimations>
@@ -106,4 +106,8 @@
 	<mainPageImagesChannel>1015</mainPageImagesChannel>
 	
 	<linksColor>0xF04D21</linksColor>
+	
+	
+	<includeNews>false</includeNews>
+	<isBetaVersion>true</isBetaVersion>
 </config>

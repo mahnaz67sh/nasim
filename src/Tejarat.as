@@ -19,7 +19,7 @@ package
 	{
 		public function Tejarat()
 		{
-			super(0,true,false);
+			super(0,true,true);
 			
 			Unicode.estesna= '-[]»«)(":';
 			StageManager.add("stage_back_css",0,-1,false,true);
