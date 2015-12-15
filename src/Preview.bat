@@ -3,7 +3,7 @@ set adt="D:\Sepehr\SoftWares\air19\bin\adt.bat"
 rem this is for debugging V
 set adl="D:\Sepehr\SoftWares\air19\bin\adl.exe"
 
-set name=Tejarat
+set name=nasim
 
 
 set contents= Data AppIconsForPublish
@@ -57,7 +57,7 @@ rem -extdir "natives"
 
 set dAA3=1024x768:1024x768
 rem debugger V
-%adl% -profile mobileDevice -screensize %dAA3% "%name%-app.xml"
+%adl% -profile mobileDevice "%name%-app.xml"
 
 
 

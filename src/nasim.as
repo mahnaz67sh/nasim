@@ -15,16 +15,19 @@ package
 	
 	import stageManager.StageManager;
 	
-	public class Tejarat extends PicContestMain
+	public class nasim extends PicContestMain
 	{
-		public function Tejarat()
+		public function nasim()
 		{
 			super(0,true,true);
+			//for debuge test super(1400,true,true);
+			
 			
 			Unicode.estesna= '-[]»«)(":';
 			StageManager.add("stage_back_css",0,-1,false,true);
 			StageManager.add("scaleble_y_css",0,0,false,true);
-			
+			StageManager.add("Buttom_Mc_Css",0,1,false,false);
+			StageManager.add("bkg_Mc_CSS",0,-1,false,false)
 			trace("PicConst.stageRect : "+PicConst.stageRect);
 			
 			
