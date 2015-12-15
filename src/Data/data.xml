@@ -43,7 +43,7 @@
 		<content></content>
 	</page>
 	
-	<page id="comments_page">
+	<page id="comments_by_email_page">
 		<type>ofogh.ui.pages.contact.ContactByMailPage</type>
 		<title>نظر سنجی</title>
 		<image></image>
@@ -70,6 +70,8 @@
 				<link level="1" name="" id="help_page" icon=""/>
 				<link level="1" name="" id="rules_page" icon=""/>
 				<link level="1" name="" id="about_page" icon=""/>
+				
+				<link level="1" name="" id="nasim_conductor_page" icon=""/>
 			</links>
 			<links>
 				<!--Single Image view-->
@@ -77,6 +79,14 @@
 			</links>
 		</page>
 		
+		
+	
+			<page id="nasim_conductor_page">
+				<type>under_construct_page</type>
+				<title></title><!--Dynamic title-->
+				<image></image><!--Dynamic images-->
+				<content></content><!--Dynamic contents-->
+			</page>
 		
 	
 			<page id="news_category_page">
