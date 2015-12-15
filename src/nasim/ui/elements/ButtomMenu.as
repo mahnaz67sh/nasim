@@ -12,6 +12,8 @@ package nasim.ui.elements
 		{
 			super();
 			
+			this.mouseChildren = this.mouseEnabled = false ;
+			
 			this.stop();
 			this.addEventListener(Event.ENTER_FRAME,anim);
 		}
