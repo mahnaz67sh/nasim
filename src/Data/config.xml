@@ -1,5 +1,5 @@
 ﻿<config>
-	<domain>http://185.83.208.175:8036/</domain>
+	<domain>http://185.83.208.175:8040/</domain>
 	<wsdl>/photocontestws.asmx?WSDL</wsdl>
 	
 	<skipAnimations>false</skipAnimations>
@@ -26,10 +26,10 @@
 	<!--Default image editor page id from the data.xml-->
 	<galleryEditorPageId>image_editor_page</galleryEditorPageId>
 	
-	<MenuHHome>0</MenuHHome>
-	<MenuH>55</MenuH>
-	<MenuHTopHome>162</MenuHTopHome>
-	<MenuTopH>121</MenuTopH>
+	<MenuHHome>200</MenuHHome>        <!-- meune home page button --> 
+	<MenuH>91</MenuH>                 <!-- meune inernal page up --> 
+	<MenuHTopHome>108</MenuHTopHome>  <!-- meune home page up--> 
+	<MenuTopH>140</MenuTopH>          <!-- meune home internal page down--> 
 	
 	<avatarW>400</avatarW>
 	<avatarH>400</avatarH>
