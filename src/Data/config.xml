@@ -110,4 +110,5 @@
 	
 	<includeNews>false</includeNews>
 	<isBetaVersion>true</isBetaVersion>
+	<changeSliderLinksByUserLogin>true</changeSliderLinksByUserLogin>
 </config>

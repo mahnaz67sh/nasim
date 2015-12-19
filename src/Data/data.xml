@@ -19,7 +19,7 @@
 		<image></image>
 		<content  w="768" h="793"></content>
 		<links>
-			<!--link level="1" name="اخبار" id="" icon="Data/images/menu/01.png"/>
+			<!--link level="1" name="اخبار" id="news_category_page" icon="Data/images/menu/01.png"/>
 			<link level="1" name="برترین اخبار" id="best_news_page" icon=""/>
 			<link level="1" name="مسابقه عکس" id="contest_list_page" icon="Data/images/menu/02.png"/>
 			<link level="1" name="نظر سنجی" id="comments_page" icon="Data/images/menu/03.png"/-->
@@ -27,10 +27,15 @@
 			<link level="1" name="مسابقه عکس" id="contest_list_page" icon=""/>
 			<link level="1" name="راهنما" id="help_page" icon=""/>
 			<link level="1" name="قوانین" id="rules_page" icon=""/>
-			<link level="1" name="درباره" id="about_page" icon=""/>
+			<link level="1" name="درباره ما" id="about_page" icon=""/>
+			<link level="1" name="ورود" id="login_page" icon=""/>
 		</links>
 		<links>
-			<link level="1" name="گروه خبری" id="news_category_page" icon=""/>
+			<link level="1" name="مسابقه عکس" id="contest_list_page" icon=""/>
+			<link level="1" name="راهنما" id="help_page" icon=""/>
+			<link level="1" name="قوانین" id="rules_page" icon=""/>
+			<link level="1" name="درباره ما" id="about_page" icon=""/>
+			<link level="1" name="خروج" id="Exit_page" icon=""/>
 		</links>
 	</page>
 	
@@ -347,15 +352,30 @@
 				</links>
 			</page>
 		
+			<page id="ProfileDetect_page">
+					<type>nasim.ui.pages.profileDetected.ProfileDetect</type>
+					<title>local_storage_l</title>
+					<image></image>
+					<content></content>
+					<links>
+					<link level="-2" name="" id="local_storage_page" icon=""/>
+					<link level="-2" name="" id="profile_page" icon=""/>
+					</links>
+					<links>
+					</links>
+				</page>
 				<page id="local_storage_page">
 					<type>picContest.ui.pages.localGallery.LocalGalleryPage</type>
 					<title>local_storage_l</title>
 					<image></image>
 					<content></content>
-					<links></links>
+					<links>
+					</links>
 					<links>
 					</links>
 				</page>
+				
+				
 		
 				<page id="edit_profile_page">
 					<type>Aroos.ui.pages.editProfile.EditProfile</type>
@@ -421,4 +441,16 @@
 					<links>
 					</links>
 				</page>
+				
+				
+						<page id="Exit_page">
+					<type>nasim.ui.pages.exitPagePackage.Exitpage</type>
+					<title>خروج</title>
+					<image></image>
+					<content></content>
+					<links>
+					<link level="1" name="" id="login_page" icon=""/>
+					</links>
+				</page>
+				
 </app>
